@@ -1,0 +1,11 @@
+﻿@using MiniBook.Models
+@model IEnumerable<THELOAI>
+
+<div style="padding:2%" class="text-center">
+    @foreach (var ca in Model)
+    {
+       <span  class="badge rounded-pill text-bg-outline-info">
+           <a style="font-weight: 500; font-size: 15px" href="@Url.Action("BookForCate","MBook",new {id =ca.IDTheLoai})">@ca.TenTheLoai</a>
+       </span>
+    }
+</div>

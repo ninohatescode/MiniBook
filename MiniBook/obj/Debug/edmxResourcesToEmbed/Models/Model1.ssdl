@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BOOKSTOREModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CHITIETDONHANG">
+    <Key>
+      <PropertyRef Name="IDDonHang" />
+      <PropertyRef Name="IDSach" />
+    </Key>
+    <Property Name="IDDonHang" Type="int" Nullable="false" />
+    <Property Name="IDSach" Type="int" Nullable="false" />
+    <Property Name="SL" Type="int" />
+    <Property Name="DonGia" Type="float" />
+    <Property Name="ThanhTien" Type="float" />
+  </EntityType>
+  <EntityType Name="DANHGIA">
+    <Key>
+      <PropertyRef Name="IDDanhGia" />
+    </Key>
+    <Property Name="IDDanhGia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDSach" Type="int" />
+    <Property Name="Diem" Type="int" />
+    <Property Name="BinhLuan" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="DONHANG">
+    <Key>
+      <PropertyRef Name="IDDonHang" />
+    </Key>
+    <Property Name="IDDonHang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NgayDat" Type="datetime" />
+    <Property Name="TongTien" Type="float" />
+    <Property Name="NgayGiao" Type="datetime" />
+    <Property Name="DiaChiNhan" Type="nvarchar(max)" />
+    <Property Name="SDTNhan" Type="char" MaxLength="11" />
+    <Property Name="TenNguoiNhan" Type="nvarchar(max)" />
+    <Property Name="NgayGuiHang" Type="datetime" />
+    <Property Name="HTGiaoHang" Type="nvarchar(max)" />
+    <Property Name="HTThanhToan" Type="nvarchar(max)" />
+    <Property Name="TrangThai" Type="nvarchar(max)" />
+    <Property Name="IDKhachHang" Type="int" />
+    <Property Name="Voucher" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="IDKhachHang" />
+    </Key>
+    <Property Name="IDKhachHang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ten" Type="nvarchar(max)" />
+    <Property Name="DiaChi" Type="nvarchar(max)" />
+    <Property Name="SDT" Type="char" MaxLength="11" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="TenDangNhap" Type="varchar(max)" />
+    <Property Name="MatKhau" Type="varchar(max)" />
+    <Property Name="NgaySinh" Type="datetime" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="30" />
+    <Property Name="XacThuc" Type="bit" />
+  </EntityType>
+  <EntityType Name="NXB">
+    <Key>
+      <PropertyRef Name="IDNXB" />
+    </Key>
+    <Property Name="IDNXB" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SDT" Type="char" MaxLength="11" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="DiaChi" Type="nvarchar(max)" />
+    <Property Name="TenNXB" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="QUANLI">
+    <Key>
+      <PropertyRef Name="TenTaiKhoan" />
+    </Key>
+    <Property Name="TenTaiKhoan" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="MatKhau" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="SACH">
+    <Key>
+      <PropertyRef Name="IDSach" />
+    </Key>
+    <Property Name="IDSach" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenSach" Type="nvarchar(max)" />
+    <Property Name="GiaBan" Type="float" />
+    <Property Name="SoLuongKho" Type="int" />
+    <Property Name="MoTa" Type="nvarchar(max)" />
+    <Property Name="AnhMinhHoa" Type="nvarchar(max)" />
+    <Property Name="NgayPhatHanh" Type="datetime" />
+    <Property Name="SLXem" Type="int" />
+    <Property Name="SLBan" Type="int" />
+    <Property Name="IDNXB" Type="int" />
+    <Property Name="IDTheLoai" Type="int" />
+  </EntityType>
+  <EntityType Name="TACGIA">
+    <Key>
+      <PropertyRef Name="IDTG" />
+    </Key>
+    <Property Name="IDTG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ten" Type="nvarchar(max)" />
+    <Property Name="DiaChi" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="GioiThieu" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="THELOAI">
+    <Key>
+      <PropertyRef Name="IDTheLoai" />
+    </Key>
+    <Property Name="IDTheLoai" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenTheLoai" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="VAITRO">
+    <Key>
+      <PropertyRef Name="IDTG" />
+      <PropertyRef Name="IDSach" />
+    </Key>
+    <Property Name="IDTG" Type="int" Nullable="false" />
+    <Property Name="IDSach" Type="int" Nullable="false" />
+    <Property Name="VaiTro" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="VOUCHER">
+    <Key>
+      <PropertyRef Name="Ma" />
+    </Key>
+    <Property Name="Ma" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TienGiam" Type="float" />
+    <Property Name="SLSD" Type="int" />
+  </EntityType>
+  <Association Name="FK_DonHang_Ctdh">
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="1" />
+    <End Role="CHITIETDONHANG" Type="Self.CHITIETDONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONHANG">
+        <PropertyRef Name="IDDonHang" />
+      </Principal>
+      <Dependent Role="CHITIETDONHANG">
+        <PropertyRef Name="IDDonHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KhachHang_DonHang">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="IDKhachHang" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="IDKhachHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NXB_Sach">
+    <End Role="NXB" Type="Self.NXB" Multiplicity="0..1" />
+    <End Role="SACH" Type="Self.SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NXB">
+        <PropertyRef Name="IDNXB" />
+      </Principal>
+      <Dependent Role="SACH">
+        <PropertyRef Name="IDNXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_Ctdh">
+    <End Role="SACH" Type="Self.SACH" Multiplicity="1" />
+    <End Role="CHITIETDONHANG" Type="Self.CHITIETDONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SACH">
+        <PropertyRef Name="IDSach" />
+      </Principal>
+      <Dependent Role="CHITIETDONHANG">
+        <PropertyRef Name="IDSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_DanhGia">
+    <End Role="SACH" Type="Self.SACH" Multiplicity="0..1" />
+    <End Role="DANHGIA" Type="Self.DANHGIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SACH">
+        <PropertyRef Name="IDSach" />
+      </Principal>
+      <Dependent Role="DANHGIA">
+        <PropertyRef Name="IDSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_Vaitro">
+    <End Role="SACH" Type="Self.SACH" Multiplicity="1" />
+    <End Role="VAITRO" Type="Self.VAITRO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SACH">
+        <PropertyRef Name="IDSach" />
+      </Principal>
+      <Dependent Role="VAITRO">
+        <PropertyRef Name="IDSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TG_Vaitro">
+    <End Role="TACGIA" Type="Self.TACGIA" Multiplicity="1" />
+    <End Role="VAITRO" Type="Self.VAITRO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TACGIA">
+        <PropertyRef Name="IDTG" />
+      </Principal>
+      <Dependent Role="VAITRO">
+        <PropertyRef Name="IDTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TheLoai_Sach">
+    <End Role="THELOAI" Type="Self.THELOAI" Multiplicity="0..1" />
+    <End Role="SACH" Type="Self.SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THELOAI">
+        <PropertyRef Name="IDTheLoai" />
+      </Principal>
+      <Dependent Role="SACH">
+        <PropertyRef Name="IDTheLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_voucher_DonHang">
+    <End Role="VOUCHER" Type="Self.VOUCHER" Multiplicity="0..1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VOUCHER">
+        <PropertyRef Name="Ma" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="Voucher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="SoSanPhamBanDuoc" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SoTienBanDuoc" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="BOOKSTOREModelStoreContainer">
+    <EntitySet Name="CHITIETDONHANG" EntityType="Self.CHITIETDONHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DANHGIA" EntityType="Self.DANHGIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DONHANG" EntityType="Self.DONHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHACHHANG" EntityType="Self.KHACHHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NXB" EntityType="Self.NXB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QUANLI" EntityType="Self.QUANLI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SACH" EntityType="Self.SACH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TACGIA" EntityType="Self.TACGIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THELOAI" EntityType="Self.THELOAI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VAITRO" EntityType="Self.VAITRO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VOUCHER" EntityType="Self.VOUCHER" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DonHang_Ctdh" Association="Self.FK_DonHang_Ctdh">
+      <End Role="DONHANG" EntitySet="DONHANG" />
+      <End Role="CHITIETDONHANG" EntitySet="CHITIETDONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KhachHang_DonHang" Association="Self.FK_KhachHang_DonHang">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NXB_Sach" Association="Self.FK_NXB_Sach">
+      <End Role="NXB" EntitySet="NXB" />
+      <End Role="SACH" EntitySet="SACH" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_Ctdh" Association="Self.FK_Sach_Ctdh">
+      <End Role="SACH" EntitySet="SACH" />
+      <End Role="CHITIETDONHANG" EntitySet="CHITIETDONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_DanhGia" Association="Self.FK_Sach_DanhGia">
+      <End Role="SACH" EntitySet="SACH" />
+      <End Role="DANHGIA" EntitySet="DANHGIA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_Vaitro" Association="Self.FK_Sach_Vaitro">
+      <End Role="SACH" EntitySet="SACH" />
+      <End Role="VAITRO" EntitySet="VAITRO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TG_Vaitro" Association="Self.FK_TG_Vaitro">
+      <End Role="TACGIA" EntitySet="TACGIA" />
+      <End Role="VAITRO" EntitySet="VAITRO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TheLoai_Sach" Association="Self.FK_TheLoai_Sach">
+      <End Role="THELOAI" EntitySet="THELOAI" />
+      <End Role="SACH" EntitySet="SACH" />
+    </AssociationSet>
+    <AssociationSet Name="FK_voucher_DonHang" Association="Self.FK_voucher_DonHang">
+      <End Role="VOUCHER" EntitySet="VOUCHER" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

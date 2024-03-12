@@ -1,0 +1,174 @@
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\MiniBook.dll.config
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\MiniBook.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\MiniBook.pdb
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\csc.exe
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\csc.exe.config
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\csc.rsp
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\csi.exe
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\csi.exe.config
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\csi.rsp
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.AppContext.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Collections.Immutable.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Console.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Globalization.Calendars.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.IO.Compression.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.IO.FileSystem.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Net.Http.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Net.Sockets.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Reflection.Metadata.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.ValueTuple.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Xml.XPath.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\vbc.exe
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\vbc.exe.config
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\vbc.rsp
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\VBCSCompiler.exe
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\roslyn\VBCSCompiler.exe.config
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Antlr3.Runtime.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\EntityFramework.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\EntityFramework.SqlServer.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Microsoft.Web.Infrastructure.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Newtonsoft.Json.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Helpers.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Mvc.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Optimization.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Razor.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.WebPages.Deployment.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.WebPages.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.WebPages.Razor.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\WebGrease.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\EntityFramework.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\EntityFramework.SqlServer.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Helpers.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Mvc.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Optimization.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.Razor.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.WebPages.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.WebPages.Deployment.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\System.Web.WebPages.Razor.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Newtonsoft.Json.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Antlr3.Runtime.pdb
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\obj\Debug\MiniBook.csproj.AssemblyReference.cache
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\obj\Debug\MiniBook.csproj.CoreCompileInputs.cache
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\obj\Debug\MiniBook.csproj.CopyComplete
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\obj\Debug\MiniBook.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\obj\Debug\MiniBook.pdb
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\PagedList.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\PagedList.Mvc.dll
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\PagedList.xml
+D:\HOCKI1NAM3\DOANPM\DoAn\BookStore\MiniBook\MiniBook\bin\PagedList.Mvc.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\MiniBook.dll.config
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\MiniBook.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\MiniBook.pdb
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\csc.exe
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\csc.exe.config
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\csc.rsp
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\csi.exe
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\csi.exe.config
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\csi.rsp
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.CSharp.Core.targets
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.Managed.Core.targets
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.VisualBasic.Core.targets
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\Microsoft.Win32.Primitives.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.AppContext.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Collections.Immutable.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Console.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Diagnostics.StackTrace.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Globalization.Calendars.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.IO.Compression.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.IO.Compression.ZipFile.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.IO.FileSystem.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.IO.FileSystem.Primitives.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Net.Http.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Net.Sockets.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Reflection.Metadata.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.Encoding.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.Primitives.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Text.Encoding.CodePages.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Threading.Tasks.Extensions.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.ValueTuple.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Xml.ReaderWriter.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Xml.XmlDocument.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Xml.XPath.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\System.Xml.XPath.XDocument.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\vbc.exe
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\vbc.exe.config
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\vbc.rsp
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\VBCSCompiler.exe
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\roslyn\VBCSCompiler.exe.config
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Antlr3.Runtime.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\EntityFramework.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\EntityFramework.SqlServer.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Microsoft.Web.Infrastructure.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Newtonsoft.Json.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\PagedList.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\PagedList.Mvc.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Helpers.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Mvc.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Optimization.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Razor.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.WebPages.Deployment.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.WebPages.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.WebPages.Razor.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\WebGrease.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\EntityFramework.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\EntityFramework.SqlServer.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\PagedList.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\PagedList.Mvc.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Helpers.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Mvc.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Optimization.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.Razor.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.WebPages.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.WebPages.Deployment.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\System.Web.WebPages.Razor.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Newtonsoft.Json.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Antlr3.Runtime.pdb
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\obj\Debug\MiniBook.csproj.AssemblyReference.cache
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\obj\Debug\MiniBook.csproj.CoreCompileInputs.cache
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\obj\Debug\MiniBook.csproj.CopyComplete
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\obj\Debug\MiniBook.dll
+K:\HUFLIT\Đồ án phần mềm\Lý thuyết\BookStore-main\MiniBook\MiniBook\obj\Debug\MiniBook.pdb
