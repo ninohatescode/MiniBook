@@ -32,7 +32,7 @@ create table Book (
 	book_release datetime,
 	book_view int,
 	book_sale int,
-	puslisher_id int,
+	publisher_id int,
 	category_id int,
 	)
 create table Rate (
