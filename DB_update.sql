@@ -7,104 +7,103 @@ go
 use BOOKSTORE
 go
 
-create table Author (
-	author_id int identity(1,1) not null primary key,
-	author_name nvarchar (max),
-	author_address nvarchar (max),
-	author_mail nvarchar(max),
-	author_descrip nvarchar(max)
+create table TACGIA (
+	IDTG int identity(1,1) not null primary key,
+	Ten nvarchar (max),
+	DiaChi nvarchar (max),
+	Mail nvarchar(max),
+	GioiThieu nvarchar(max)
 )
 
-create table Role (
-	author_id int,
-	book_id int ,
-	_role nvarchar(max)
-	constraint  PK_Role primary key(author_id,book_id)
+create table VAITRO (
+	IDTG int,
+	IDSach int ,
+	VaiTro nvarchar(max)
+	constraint  PK_VAITRO primary key(IDTG,IDSach)
 )
 
-create table Book (
-	book_id int identity(1,1) primary key,
-	book_name nvarchar (max),
-	book_price float,
-	book_quantity int,
-	book_descrip nvarchar(max),
-	book_image nvarchar(max),
-	book_release datetime,
-	book_view int,
-	book_sale int,
-	publisher_id int,
-	category_id int,
+create table SACH (
+	IDSach int identity(1,1) primary key,
+	TenSach nvarchar (max),
+	GiaBan float,
+	SoLuongKho int,
+	MoTa nvarchar(max),
+	AnhMinhHoa nvarchar(max),
+	NgayPhatHanh datetime,
+	SLXem int,
+	SLBan int,
+	IDNXB int,
+	IDTheLoai int,
 	)
-create table Rate (
-	rate_id int identity(1,1) primary key,
-	book_id int,
-	rate_point int,
-	rate_comment nvarchar(max)
+create table DANHGIA (
+	IDDanhGia int identity(1,1) primary key,
+	IDSach int,
+	Diem int,
+	BinhLuan nvarchar(max)
 )
-create table Category(
-	category_id int identity(1,1) primary key,
-	category_name nvarchar(max)
+create table THELOAI(
+	IDTheLoai int identity(1,1) primary key,
+	TenTheLoai nvarchar(max)
 )
-create table Publisher(
-	publisher_id int identity(1,1) primary key,
-	publisher_phone char(11),
-	publisher_mail nvarchar(max),
-	publisher_address nvarchar(max),
-	publisher_name nvarchar(max)
+create table NXB(
+	IDNXB int identity(1,1) primary key,
+	SDT char(11),
+	Mail nvarchar(max),
+	DiaChi nvarchar(max),
+	TenNXB nvarchar(max)
 
 )
-
-create table _Order (
-	order_id int identity (1,1) primary key,
-	order_date datetime,
-	order_total_mount float,
-	order_delivery_date datetime,
-	order_delivery_address nvarchar(max),
-	order_phone char(11),
-	order_name nvarchar(max),
-	order_shipping_date datetime,
-	order_form_of_delivery nvarchar(max),
-	order_payment nvarchar(max),
-	order_status nvarchar(max),
-	customer_id int,
+create table DONHANG(
+	IDDonHang int identity (1,1) primary key,
+	NgayDat datetime,
+	TongTien float,
+	NgayGiao datetime,
+	DiaChiNhan nvarchar(max),
+	SDTNhan char(11),
+	TenNguoiNhan nvarchar(max),
+	NgayGuiHang datetime,
+	HTGiaoHang nvarchar(max),
+	HTThanhToan nvarchar(max),
+	TrangThai nvarchar(max),
+	IDKhachHang int,
 	Voucher varchar(10)
 )
-create table OrderDetail(
-	order_id int,
-	book_id int,
-	book_quanity int,
-	book_price float,
-	orderdetail_total_mount float,
-	constraint  PK_OrderDetail primary key(order_id,book_id)
+create table CHITIETDONHANG(
+	IDDonHang int,
+	IDSach int,
+	SL int,
+	DonGia float,
+	ThanhTien float,
+	constraint  PK_CHITIETDONHANG primary key(IDDonHang,IDSach)
 )
 create table VOUCHER(
-	voucher_id varchar(10) primary key,
-	voucher_discount float,
-	vourcher_quantity int
+	Ma varchar(10) primary key,
+	TienGiam float,
+	SLSD int
 )
-create table Customer(
-	customer_id int identity (1,1) primary key,
-	customer_name nvarchar(max),
-	customer_address nvarchar(max),
-	customer_phone char(11),
-	customer_mail nvarchar(max),
-	customer_user_name varchar(max),
-	customer_password varchar(max),
-	customer_birthday datetime,
-	customer_sex nvarchar(30),
-	accuracy bit
+create table KHACHHANG(
+	IDKhachHang int identity (1,1) primary key,
+	Ten nvarchar(max),
+	DiaChi nvarchar(max),
+	SDT char(11),
+	Mail nvarchar(max),
+	TenDangNhap varchar(max),
+	MatKhau varchar(max),
+	NgaySinh datetime,
+	GioiTinh nvarchar(30),
+	XacThuc bit
 )
-create table HRM (
-	hrm_user_name varchar(30) primary key,
-	hrm_password varchar(max)
+create table QUANLI (
+	TenTaiKhoan varchar(30) primary key,
+	MatKhau varchar(max)
 )
 
-alter table Role add constraint FK_Author_Role foreign key (author_id) references Author(author_id);
-alter table Role add constraint FK_Book_Role foreign key (book_id) references Book(book_id);
-alter table Rate add constraint FK_Book_Rate foreign key (book_id) references Book(book_id);
-alter table Book add constraint FK_Category_Book foreign key (category_id) references Category(category_id);
-alter table Book add constraint FK_Publisher_Book foreign key (publisher_id) references Publisher(publisher_id);
-alter table OrderDetail add constraint FK_Book_OrderDetail foreign key (book_id) references Book(book_id);
-alter table OrderDetail add constraint FK_Order_OrderDetail foreign key (order_id) references _Order(order_id);
-alter table _Order add constraint FK_voucher_Order foreign key (voucher) references VOUCHER(voucher_id);
-alter table _Order add constraint FK_Customer_Order foreign key (customer_id) references Customer(customer_id);
+alter table VAITRO add constraint FK_TG_Vaitro foreign key (IDTG) references TACGIA(IDTG);
+alter table VAITRO add constraint FK_Sach_Vaitro foreign key (IDSach) references SACH(IDSach);
+alter table DANHGIA add constraint FK_Sach_DanhGia foreign key (IDSach) references SACH(IDSach);
+alter table SACH add constraint FK_TheLoai_Sach foreign key (IDTheLoai) references THELOAI(IDTheLoai);
+alter table SACH add constraint FK_NXB_Sach foreign key (IDNXB) references NXB(IDNXB);
+alter table CHITIETDONHANG add constraint FK_Sach_Ctdh foreign key (IDSach) references SACH(IDSach);
+alter table CHITIETDONHANG add constraint FK_DonHang_Ctdh foreign key (IDDonHang) references DONHANG(IDDonHang);
+alter table DONHANG add constraint FK_voucher_DonHang foreign key (voucher) references VOUCHER(Ma);
+alter table DONHANG add constraint FK_KhachHang_DonHang foreign key (IDKhachHang) references KHACHHANG(IDKhachHang);
